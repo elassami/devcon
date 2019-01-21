@@ -88,7 +88,7 @@ class Login extends Component {
   }
 }
 
-Login.PropTypes = {
+Login.propTypes = {
   loginUser: PropTypes.func.isRequiered,
   auth: PropTypes.object.isRequiered,
   errors: PropTypes.object.isRequiered
